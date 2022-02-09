@@ -1,0 +1,20 @@
+
+.fluid_img{
+    width: 50%;
+    margin: 0.5rem auto;
+    box-shadow: 0 0 2px 1px #e2dcdc;
+    border-radius: 3px;
+    max-width: 300px;
+}
+.round_img{
+    display: flex;
+}
+.round_img img{
+    max-width: 300px;
+    max-height: 300px;
+    width: 60vw;
+    height: 60vw;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 1rem auto;
+}
