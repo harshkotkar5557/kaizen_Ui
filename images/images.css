@@ -6,8 +6,10 @@
     border-radius: 3px;
     max-width: 300px;
 }
-
 .round_img{
+    display: flex;
+}
+.round_img img{
     max-width: 300px;
     max-height: 300px;
     width: 60vw;
