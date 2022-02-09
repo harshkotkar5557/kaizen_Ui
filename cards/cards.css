@@ -1,3 +1,6 @@
+.flex-dir-col{
+    flex-direction: column;
+}
 .card{
     margin: 1rem auto;
     min-width: 300px;
@@ -24,10 +27,10 @@
     letter-spacing: 0.0225em;
 }
 
-.horizontal_info{
+.horizontal_image_text .horizontal_info{
     flex: 1 0 60%;
 }
-.horizontal_info h3{
+.horizontal_image_text .horizontal_info h3{
     margin: 0;
 }
 .card_btn_box{
@@ -123,3 +126,4 @@
     background: white;
     cursor: pointer;
 }
+
