@@ -1,0 +1,16 @@
+
+.avatar{
+    margin: 0.5rem;
+}
+.avatar img{
+    border-radius: 50%;
+}
+.sm{
+    width: 2rem;
+}
+.md{
+    width: 3rem;
+}
+.lg{
+    width: 4rem;
+}
