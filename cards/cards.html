@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" />
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="./cards.css">    
+    <title>KaizenUI</title>
+</head>
+<body>
+    <nav class="navbar_std">
+        <header class="d-flex justify-space-bw align-center">
+            <div class="brandName">KaizenUI</div>
+            <div class="hambar"><i class="fa-solid fa-bars"></i></div>
+            <ul class="navbarOptions d-flex d-flex justify-space-bw align-center">
+                <li><a href="https://github.com/harshkotkar5557" alt="#"><i class="fab fa-github">&nbsp;</i></a></li>
+            <li><a href="https://www.linkedin.com/in/haresh-kotkar-389a08139/" alt="#"><i class="fab fa-linkedin">&nbsp;</i></a>
+            </li>
+            <li><a href="https://twitter.com/KotkarHaresh" alt="#"><i
+                        class="fab fa-twitter-square">&nbsp;</i></a></li>
+            </ul>
+        </header>
+    </nav>
+    <section class="middleSection">
+        <div class="siderbar">
+            <ul class=" d-flex align-center">
+                <li class="sliderbarItem flex-1"><a href="../avatar/avatar.html">Avatar</a></li>
+                <li class="sliderbarItem flex-1"><a href="../images/images.html">Images</a></li>
+                <li class="sliderbarItem flex-1 active_item"><a href="./cards.html">Cards</a></li>
+                <li class="sliderbarItem flex-1"><a href="">Avatar</a></li>
+                <li class="sliderbarItem flex-1"><a href="">Avatar</a></li>
+                <li class="sliderbarItem flex-1"><a href="">Avatar</a></li>
+                <li class="sliderbarItem flex-1"><a href="">Avatar</a></li>
+                <li class="sliderbarItem flex-1"><a href="">Avatar</a></li>
+            </ul>
+        </div>
+        <div class="contentBox">
+            <h4>Horizontal card</h4>
+            <div class="card h-full horizontal_image_text">
+                <div class="d-flex justify-center">
+                    <div>
+                        <img class="h-full" src="./tesla_2.jpg" alt="tesla_logo">
+                    </div>
+                    <div class="card_info horizontal_info">
+                        <h3>
+                            Tesla is accelerating the world's.
+                        </h3>
+                        <span>by Elon Musk</span>
+                    </div>
+                </div>
+                <div class="d-flex align-center font_1r justify-around">
+                    <div class="card_btn_box">
+                        <button>Read More</button>
+                        <button>Bookmark</button>
+                    </div>
+                    <div class="card_icons">
+                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                        <i class="fa fa-share-alt" aria-hidden="true"></i>
+                        <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+                    </div>
+                </div>
+               
+            </div>
+            <h4>Cards with badges</h4>
+            <div class="card badges_card">
+                <div class="badges position-relative">
+                    <figure >
+                        <img src="./tesla_2.jpg" alt="tesla_logo" >
+                    </figure>
+                    <div class="card_info">
+                        <h3>
+                            Tesla is accelerating the world's.
+                        </h3>
+                        <span>by Elon Musk</span>
+                    </div>
+                </div>
+                <div class="d-flex align-center justify-end">
+                    <div class="card_icons font_1r">
+                        <i class="fa fa-heart-o m-10-rl" aria-hidden="true"></i>
+                        <i class="fa fa-share-alt m-10-rl" aria-hidden="true"></i>
+                        <i class="fa fa-ellipsis-v m-10-rl" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+            <h4>Vertical cards</h4>
+            <div class="card">
+                <div>
+                    <div class="card_info">
+                        <h3>
+                            Tesla is accelerating the world's transition.
+                        </h3>
+                        <span>by Elon Musk</span>
+                    </div>
+                    <figure>
+                        <img
+                         src="./tesla_2.jpg" alt="tesla_logo" >
+                    </figure>
+                    <p class="card_para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non neque cumque nostrum ipsum. Ipsam repudiandae sapiente aspernatur</p>
+                </div>
+                <div class="d-flex align-center">
+                    <div class="card_btn_box font_1r ">
+                        <button>Read More</button>
+                        <button>Bookmark</button>
+                    </div>
+                    
+                </div>
+            </div>
+            <h4>Cards with overlay</h4>
+            <div class="card with_overlay">
+                <div class="position-relative" >
+                    <figure >
+                        <img src="./tesla_2.jpg" alt="tesla_logo" >
+                    </figure>
+                    <div class="card_info title_over_img">
+                        <h3>
+                            Tesla is accelerating the world's.
+                        </h3>
+                        <span style="color: white;">by Elon Musk</span>
+                    </div>
+                </div>
+                <div class="d-flex align-center font_1r justify-around">
+                    <div class="card_btn_box">
+                        <button>Read More</button>
+                        <button>Bookmark</button>
+                    </div>
+                    <div class="card_icons">
+                        <i class="fa-light fa-heart"></i>
+                        <i class="fa fa-share-alt" aria-hidden="true"></i>
+                        <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+            <h4>Cards with dismiss</h4>
+            <div class="card text_only position-relative dismiss_card">
+                <div class="dismiss_sign">&times;</div>
+                <div class="" >
+                    <div class="card_info">
+                        <h3>
+                            Tesla is accelerating the world's.
+                        </h3>
+                        <span>by Elon Musk</span>
+                    </div>
+                    <p class="card_para">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non neque cumque nostrum ipsum. Ipsam repudiandae sapiente aspernatur</p>
+                </div>
+                <div class="d-flex align-center font_1r justify-around">
+                    <div class="card_btn_box">
+                        <button>Read More</button>
+                        <button>Bookmark</button>
+                    </div>
+                    <div class="card_icons">
+                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                        <i class="fa fa-share-alt" aria-hidden="true"></i>
+                        <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+            <h4>Cards with shadow</h4>
+            <div class="card shadow">
+                <div class="" >
+                    <figure >
+                        <img src="./tesla_2.jpg" alt="tesla_logo" >
+                    </figure>
+                    <div class="card_info">
+                        <h3>
+                            Tesla is accelerating the world's.
+                        </h3>
+                        <span>by Elon Musk</span>
+                    </div>
+                </div>
+                <div class="d-flex align-center font_1r justify-around">
+                    <div class="card_btn_box">
+                        <button>Read More</button>
+                        <button>Bookmark</button>
+                    </div>
+                    <div class="card_icons">
+                        <i class="fa fa-heart-o" aria-hidden="true"></i>
+                        <i class="fa fa-share-alt" aria-hidden="true"></i>
+                        <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+

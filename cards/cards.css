@@ -1,0 +1,125 @@
+.card{
+    margin: 1rem auto;
+    min-width: 300px;
+    width: 380px;
+    box-shadow: 0 0 2px 1px #e0dfdf;
+    border-radius: 3px;
+    overflow: hidden;
+    padding-bottom: 0.3rem;
+    height: fit-content;
+}
+
+.card_info{
+    padding: 1.6em 1em;
+}
+.card_info h3{
+    font-size: 1.25rem;
+    font-weight: 500;
+    letter-spacing: .0125em;
+    margin:0.5rem 0;
+}
+.card_info span{
+    color: grey;
+    font-size: 1.2em;
+    letter-spacing: 0.0225em;
+}
+
+.horizontal_info{
+    flex: 1 0 60%;
+}
+.horizontal_info h3{
+    margin: 0;
+}
+.card_btn_box{
+    display: flex;
+}
+.card_btn_box button{
+    outline: none;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    font-size: 1rem;
+    color: #0000ff;
+    border-radius: 3px;
+    background: transparent;
+    border: none;
+    padding: 0.5em;
+    margin: 0.5em 0 0.5em 0.5em;
+}
+.card_btn_box button:hover{
+    background-color: #f2f0fa;
+}
+
+.card_icons{
+    display: flex;
+    justify-content: space-around;
+}
+.card_icons i{
+    padding: 0.875em;
+    border-radius: 50%;
+    color: grey;
+    width: 1em;
+    text-align: center;
+}
+.card_icons i:hover{
+    background-color: #f9f4f4;
+}
+
+.card_para{
+    font-size: 1rem;
+    word-spacing: 0.05em;
+    padding: 0.8rem;
+    color: grey;
+    letter-spacing: 0.05em;
+}
+
+.title_over_img{
+    position: absolute;
+    bottom: 0.2rem;
+    color: white;
+    font-weight: 600;
+}
+
+
+/* shadow gives light color effect on hover over box */
+.shadow:hover{
+    box-shadow: 0 0 3px 3px #c3c0c0;
+}
+
+/* badges use to imp or highlighted information on box */
+.badges::after{
+    content: 'Best Model';
+    position: absolute;
+    top: 5%;
+    padding: 0.2em 0.5em;
+    font-size: 1rem;
+    box-shadow: 0 0 2px 1px #949697;
+    background: #161616;
+    border-radius: 0 3px;
+    font-weight: 500;
+    color: white;
+}
+
+.badges_sm::after{
+    top: 3px;
+    font-size: 0.6rem;
+    content: '1';
+    position: absolute;
+    background: #169acc;
+    color: white;
+    padding: 0.2em 0.5em;
+    border-radius: 50%;
+    right: -3px;
+}
+
+/* dismiss its cross sign to  shown top left corner*/
+.dismiss_card:hover .dismiss_sign{
+    display: block;
+}
+.dismiss_sign{
+    display: none;
+    font-size: 2rem;
+    position: absolute;
+    right: 5%;
+    background: white;
+    cursor: pointer;
+}
