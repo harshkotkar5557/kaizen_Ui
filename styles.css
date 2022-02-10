@@ -138,10 +138,10 @@ img{
 
 nav{
     overflow: hidden;
+    box-shadow: 0 0 2px 1px #fdb8b83b;
 }
 .navbar_std header{
-    height: 10vh;
-    box-shadow: 0 0 2px 1px #fdb8b83b;
+    height: 80px;
 }
 .brandName{
     letter-spacing: 2px;
