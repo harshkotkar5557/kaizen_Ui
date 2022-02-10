@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url("./alert/alert.css");
+@import url("./avatar/avatar.css");
+@import url("./buttons/buttons.css");
+@import url("./cards/cards.css");
+@import url("./images/images.css");
+@import url("./input/input.css");
+@import url("./lists/lists.css");
+@import url("./modals/modals.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@400;500&family=Ubuntu:wght@400;500&display=swap');
+
 :root{
     --main-color: #0e9aeb;
     --black: #1f1d1d;
@@ -37,11 +49,14 @@
     --font-bold:700
 }
 
+
+
 /* Reset CSS */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 button {
@@ -90,6 +105,9 @@ a{
 .justify-end{
     justify-content: flex-end;
 }
+.flex-dr-col{
+    flex-direction: column;
+}
 .w-full{
     width: 100%;
 }
@@ -127,12 +145,15 @@ img{
 .brandName{
     letter-spacing: 2px;
     font-size: 1.5rem;
-    font-weight: 600;
+    font-weight: 700;
     color: tomato;
     margin: 1rem;
     flex-basis: 150px;
     text-align: center;
     cursor: pointer;
+}
+.brandName a{
+    color: tomato;
 }
 .hambar{
     display: none;
@@ -156,6 +177,7 @@ img{
 }
 
 .siderbar{
+    padding: 0.5rem;
     flex: 1 0;
     flex-basis: 230px;
     box-shadow: 1px 2px 2px 1px #fdb8b83b;
@@ -165,6 +187,7 @@ img{
     flex-direction: column;
 }
 .sliderbarItem a{
+    border-radius: 5px;
     font-size: 1.25rem;
     padding: 0.5rem 2rem;
     display: block;
@@ -181,14 +204,44 @@ img{
     overflow: auto;
 }
 
+.landingPage{
+    background: linear-gradient(166deg, black, transparent);
+    height: 100vh;
+}
+ 
+.main_title{
+    position: absolute;
+    top: 27%;
+    font-size: 3rem;
+    color: white;
+    max-width: 700px;
+    margin: 2rem;
+}
+.main_title .link-btn{
+    background-color: tomato;
+}
+
 @media (max-width:700px){
+        .siderbar{
+            top: 10vh;
+            position: absolute;
+            height: 89vh;
+            left: 105%;
+            z-index: 999;
+            background: white;
+            box-shadow: -1px 1px 2px 1px #fdb8b83b;
+        }
         .navbarOptions{
             display: none;
         }
         .hambar{
+            cursor: pointer;
             display: block;
             margin: 1rem;
+            font-size: 1.5rem;
+            color: tomato;
         }
+       
 }
 
 

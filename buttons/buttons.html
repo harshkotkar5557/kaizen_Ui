@@ -4,38 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-        crossorigin="anonymous" />
-    <link rel="stylesheet" href="../styles.css">
-    <link rel="stylesheet" href="./buttons.css">    
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../styles.css">   
     <title>KaizenUI</title>
 </head>
 <body>
     <nav class="navbar_std">
         <header class="d-flex justify-space-bw align-center">
-            <div class="brandName">KaizenUI</div>
-            <div class="hambar"><i class="fa-solid fa-bars"></i></div>
+            <div class="brandName"><a href="../index.html">KaizenUI</a></div>
+            <div id="hambar" class="hambar"><i class="fa fa-bars" aria-hidden="true"></i></div>
             <ul class="navbarOptions d-flex d-flex justify-space-bw align-center">
-                <li><a href="https://github.com/harshkotkar5557" alt="#"><i class="fab fa-github">&nbsp;</i></a></li>
-            <li><a href="https://www.linkedin.com/in/haresh-kotkar-389a08139/" alt="#"><i class="fab fa-linkedin">&nbsp;</i></a>
+                <li><a href="https://github.com/harshkotkar5557" alt="#"><i class="fa fa-github" aria-hidden="true">&nbsp;</i></a></li>
+            <li><a href="https://www.linkedin.com/in/haresh-kotkar-389a08139/" alt="#"><i class="fa fa-linkedin-square" aria-hidden="true">&nbsp;</i></a>
             </li>
             <li><a href="https://twitter.com/KotkarHaresh" alt="#"><i
-                        class="fab fa-twitter-square">&nbsp;</i></a></li>
+                        class="fa fa-twitter-square" aria-hidden="true">&nbsp;</i></a></li>
             </ul>
         </header>
     </nav>
     <section class="middleSection">
         <div class="siderbar">
             <ul class=" d-flex align-center">
+                <li class="sliderbarItem flex-1"><a href="../gettintstarted.html">Installation</a></li>
+                <li class="sliderbarItem flex-1 "><a href="../alert/alert.html">Alerts</a></li>
                 <li class="sliderbarItem flex-1"><a href="../avatar/avatar.html">Avatar</a></li>
-                <li class="sliderbarItem flex-1 "><a href="./images.html">Images</a></li>
-                <li class="sliderbarItem flex-1"><a href="../cards/cards.html">Cards</a></li>
                 <li class="sliderbarItem flex-1 active_item"><a href="./buttons.html">Buttons</a></li>
-                <li class="sliderbarItem flex-1"><a href="">Avatar</a></li>
-                <li class="sliderbarItem flex-1"><a href="">Avatar</a></li>
-                <li class="sliderbarItem flex-1"><a href="">Avatar</a></li>
-                <li class="sliderbarItem flex-1"><a href="">Avatar</a></li>
+                <li class="sliderbarItem flex-1"><a href="../cards/cards.html">Cards</a></li>
+                <li class="sliderbarItem flex-1"><a href="../images/images.html">Images</a></li>
+                <li class="sliderbarItem flex-1"><a href="../input/input.html">Inputs</a></li>
+                <li class="sliderbarItem flex-1"><a href="../lists/lists.html">Lists</a></li>
+                <li class="sliderbarItem flex-1"><a href="../modals/modals.html">Modals</a></li>
+              
             </ul>
         </div>
         <div class="contentBox">
@@ -52,10 +55,10 @@
             </div>
             <div class="doc-img ">
                 <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=15px&lh=100%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520primary%2522%253EPrimary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520secondary%2522%253ESecondary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520success%2522%253ESuccess%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520danger%2522%253EDanger%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520warning%2522%253EWarning%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520default%2522%253EDefault%253C%252Fbutton%253E%250A%253Ca%2520href%253D%2522%2523%2522%2520target%253D%2522_blank%2522%2520class%253D%2522link-btn%2522%253ELink%2520Button%253C%252Fa%253E%250A"
-                    style="width: 100%; height: 289px; border:0; transform: scale(1); overflow:hidden;"
-                    sandbox="allow-scripts allow-same-origin">
-                </iframe>
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520primary%2522%253EPrimary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520secondary%2522%253ESecondary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520success%2522%253ESuccess%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520danger%2522%253EDanger%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520warning%2522%253EWarning%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520default%2522%253EDefault%253C%252Fbutton%253E%250A%253Ca%2520href%253D%2522%2523%2522%2520target%253D%2522_blank%2522%2520class%253D%2522link-btn%2522%253ELink%2520Button%253C%252Fa%253E%250A"
+                style="width: 100%; height: 335px; border:0; transform: scale(1); overflow:hidden;margin: 0 auto;"
+                sandbox="allow-scripts allow-same-origin">
+              </iframe>
             </div>
             <h3>Outlined Buttons</h3>
                     <div class="buttons-container">
@@ -70,13 +73,13 @@
                     </div>
                     <div class="doc-img">
                         <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=seti&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=142%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520outlined-primary%2522%253EPrimary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520outlined-secondary%2522%253ESecondary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520outlined-success%2522%253ESuccess%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520outlined-danger%2522%253EDanger%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520outlined-warning%2522%253EWarning%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520outlined-default%2522%253EDefault%253C%252Fbutton%253E%250A%253Ca%2520href%253D%2522%2523%2522%2520target%253D%2522_blank%2522%2520class%253D%2522link-btn%2520outlined%2522%253ELink%2520Button%253C%252Fa%253E"
-                            style="width: 100%; height: 360px; border:0; transform: scale(1); overflow:hidden;"
-                            sandbox="allow-scripts allow-same-origin">
-                        </iframe>
+                        src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520outlined-primary%2522%253EPrimary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520outlined-secondary%2522%253ESecondary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520outlined-success%2522%253ESuccess%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520outlined-danger%2522%253EDanger%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520outlined-warning%2522%253EWarning%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520outlined-default%2522%253EDefault%253C%252Fbutton%253E%250A%253Ca%2520href%253D%2522%2523%2522%2520target%253D%2522_blank%2522%2520class%253D%2522link-btn%2520outlined%2522%253ELink%2520Button%253C%252Fa%253E%250A"
+                        style="width: 100%;height: 335px; border:0; transform: scale(1); overflow:hidden;margin: 0 auto;"
+                        sandbox="allow-scripts allow-same-origin">
+                      </iframe>
                     </div>
         </div>
     </section>
-    
+    <script src="../index.js"></script>
 </body>
 </html>

@@ -4,38 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-        crossorigin="anonymous" />
-    <link rel="stylesheet" href="../styles.css">
-    <link rel="stylesheet" href="./alert.css">    
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicons/favicon-16x16.png">
+    <link rel="manifest" href="./favicons/site.webmanifest">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../styles.css">   
     <title>KaizenUI</title>
 </head>
 <body>
     <nav class="navbar_std">
         <header class="d-flex justify-space-bw align-center">
-            <div class="brandName">KaizenUI</div>
-            <div class="hambar"><i class="fa-solid fa-bars"></i></div>
+            <div class="brandName"><a href="../index.html">KaizenUI</a></div>
+            <div id="hambar" class="hambar"><i class="fa fa-bars" aria-hidden="true"></i></div>
             <ul class="navbarOptions d-flex d-flex justify-space-bw align-center">
-                <li><a href="https://github.com/harshkotkar5557" alt="#"><i class="fab fa-github">&nbsp;</i></a></li>
-            <li><a href="https://www.linkedin.com/in/haresh-kotkar-389a08139/" alt="#"><i class="fab fa-linkedin">&nbsp;</i></a>
+                <li><a href="https://github.com/harshkotkar5557" alt="#"><i class="fa fa-github" aria-hidden="true">&nbsp;</i></a></li>
+            <li><a href="https://www.linkedin.com/in/haresh-kotkar-389a08139/" alt="#"><i class="fa fa-linkedin-square" aria-hidden="true">&nbsp;</i></a>
             </li>
             <li><a href="https://twitter.com/KotkarHaresh" alt="#"><i
-                        class="fab fa-twitter-square">&nbsp;</i></a></li>
+                        class="fa fa-twitter-square" aria-hidden="true">&nbsp;</i></a></li>
             </ul>
         </header>
     </nav>
     <section class="middleSection">
         <div class="siderbar">
             <ul class=" d-flex align-center">
+                <li class="sliderbarItem flex-1"><a href="../gettintstarted.html">Installation</a></li>
+                <li class="sliderbarItem flex-1 active_item"><a href="./alert.html">Alerts</a></li>
                 <li class="sliderbarItem flex-1"><a href="../avatar/avatar.html">Avatar</a></li>
-                <li class="sliderbarItem flex-1"><a href="./images.html">Images</a></li>
+                <li class="sliderbarItem flex-1"><a href="../buttons/buttons.html">Buttons</a></li>
                 <li class="sliderbarItem flex-1"><a href="../cards/cards.html">Cards</a></li>
-                <li class="sliderbarItem flex-1"><a href=""></a></li>
-                <li class="sliderbarItem flex-1  active_item"><a href="./alert.html">Alerts</a></li>
-                <li class="sliderbarItem flex-1"><a href="">Avatar</a></li>
-                <li class="sliderbarItem flex-1"><a href="">Avatar</a></li>
-                <li class="sliderbarItem flex-1"><a href="">Avatar</a></li>
+                <li class="sliderbarItem flex-1"><a href="../images/images.html">Images</a></li>
+                <li class="sliderbarItem flex-1"><a href="../input/input.html">Inputs</a></li>
+                <li class="sliderbarItem flex-1"><a href="../lists/lists.html">Lists</a></li>
+                <li class="sliderbarItem flex-1"><a href="../modals/modals.html">Modals</a></li>
+               
             </ul>
         </div>
         <div class="contentBox">
@@ -74,13 +77,13 @@
         </div>
         <div class="doc-img">
             <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=seti&wt=none&l=htmlmixed&width=751&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=131%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert-success%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%253Ch3%253ESuccess%2520Alert%2520Message%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522close%2522%253E%2526times%253B%253C%252Fa%253E%250A%2520%253C%252Fdiv%253E%250A%250A%253C%21--Danger%2520Alert--%253E%2520%250A%253Cdiv%2520class%253D%2522alert-danger%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch3%253EDanger%2520Alert%2520Message%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522close%2522%253E%2526times%253B%253C%252Fa%253E%250A%253C%252Fdiv%253E%2520%250A%253C%21--Info%2520Alert--%253E%2520%250A%253Cdiv%2520class%253D%2522alert-info%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch3%253EInfo%2520Alert%2520Message%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522close%2522%253E%2526times%253B%253C%252Fa%253E%250A%253C%252Fdiv%253E%2520%250A%253C%21--Warning%2520Alert--%253E%2520%250A%253Cdiv%2520class%253D%2522alert-warning%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch3%253EWarning%2520Aert%2520Message%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522close%2522%253E%2526times%253B%253C%252Fa%253E%250A%253C%252Fdiv%253E"
-                style="width: 100%; height: 549px; border:0; transform: scale(1); overflow:hidden;"
-                sandbox="allow-scripts allow-same-origin">
-            </iframe>
+            src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert-success%2522%253E%2520%250A%2520%2520%2520%2520%2520%2520%253Ch3%253ESuccess%2520Alert%2520Message%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522close%2522%253E%2526times%253B%253C%252Fa%253E%250A%2520%253C%252Fdiv%253E%250A%250A%253C%21--Danger%2520Alert--%253E%2520%250A%253Cdiv%2520class%253D%2522alert-danger%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch3%253EDanger%2520Alert%2520Message%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522close%2522%253E%2526times%253B%253C%252Fa%253E%250A%253C%252Fdiv%253E%2520%250A%253C%21--Info%2520Alert--%253E%2520%250A%253Cdiv%2520class%253D%2522alert-info%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch3%253EInfo%2520Alert%2520Message%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522close%2522%253E%2526times%253B%253C%252Fa%253E%250A%253C%252Fdiv%253E%2520%250A%253C%21--Warning%2520Alert--%253E%2520%250A%253Cdiv%2520class%253D%2522alert-warning%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch3%253EWarning%2520Aert%2520Message%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522close%2522%253E%2526times%253B%253C%252Fa%253E%250A%253C%252Fdiv%253E%250A"
+            style="width: 100%; height: 577px; border:0; transform: scale(1); overflow:hidden;margin: 1rem auto;"
+            sandbox="allow-scripts allow-same-origin">
+          </iframe>
         </div>
         </div>
     </section>
-    
+    <script src="../index.js"></script>
 </body>
 </html>

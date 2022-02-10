@@ -23,16 +23,15 @@
 }
 .card_info span{
     color: grey;
-    font-size: 1.2em;
+    font-size: 1em;
     letter-spacing: 0.0225em;
 }
 
-.horizontal_image_text .horizontal_info{
-    flex: 1 0 60%;
+.horizontal-card .card_img{
+    width: 40%;
 }
-.horizontal_image_text .horizontal_info h3{
-    margin: 0;
-}
+
+
 .card_btn_box{
     display: flex;
 }
@@ -53,19 +52,24 @@
 }
 
 .card_icons{
+    flex: 1;
     display: flex;
     justify-content: space-around;
 }
-.card_icons i{
-    padding: 0.875em;
+.icons_div{
+    display: flex;
+    width: 2.5rem;
+    height: 2.5rem;
+    align-items: center;
+    justify-content: center;
     border-radius: 50%;
     color: grey;
-    width: 1em;
-    text-align: center;
+    font-weight: 500;
 }
-.card_icons i:hover{
-    background-color: #f9f4f4;
+.icons_div:hover{
+    background-color: #dbdbdb3b;
 }
+
 
 .card_para{
     font-size: 1rem;
