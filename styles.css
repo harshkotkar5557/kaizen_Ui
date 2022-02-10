@@ -173,8 +173,9 @@ nav{
 
 
 .middleSection{
-    /* height: 89vh; */
+    height: 89vh;
     display: flex;
+    overflow: auto;
 }
 
 .siderbar{
@@ -220,6 +221,16 @@ nav{
 }
 .main_title .link-btn{
     background-color: tomato;
+}
+.social_links{
+    font-size: 1rem;
+    width: 40%;
+    position: absolute;
+    bottom: -100px;
+    right: 5%;
+}
+.social_links a{
+    color: white;
 }
 .section-main-text-header{
     margin: 1rem;

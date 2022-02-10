@@ -3,7 +3,7 @@
 }
 .card{
     margin: 1rem auto;
-    min-width: 300px;
+    min-width: 280px;
     width: 380px;
     box-shadow: 0 0 2px 1px #e0dfdf;
     border-radius: 3px;
@@ -129,5 +129,16 @@
     right: 5%;
     background: white;
     cursor: pointer;
+}
+
+@media (max-width:700px){
+    .card{
+        margin: 0.5rem auto;
+        width: 350px;
+    }
+    .card_btn_box button{
+        padding: 0.4em 0.3em;
+        margin: 0.3em 0 0.3em 0.3em;
+    }
 }
 
