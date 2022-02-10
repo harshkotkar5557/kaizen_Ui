@@ -1,9 +1,8 @@
-console.log(document.querySelector('.siderbar').style?"left:150%":'')
 document.getElementById('hambar').addEventListener('click', () => {
-    if (document.querySelector('.siderbar').style['left'] == "150%") {
-        document.querySelector('.siderbar').style='left:0%'
+    if (document.querySelector('.siderbar').style['display'] == "none") {
+        document.querySelector('.siderbar').style['display']='block'
     } else {
-        document.querySelector('.siderbar').style='left:150%'
+        document.querySelector('.siderbar').style['display']='none'
     }
    
 })
