@@ -136,8 +136,9 @@ img{
     font-weight: 700;
 }
 
-
-
+nav{
+    overflow: hidden;
+}
 .navbar_std header{
     height: 10vh;
     box-shadow: 0 0 2px 1px #fdb8b83b;
@@ -172,7 +173,7 @@ img{
 
 
 .middleSection{
-    height: 89vh;
+    /* height: 89vh; */
     display: flex;
 }
 
@@ -212,7 +213,7 @@ img{
 .main_title{
     position: absolute;
     top: 27%;
-    font-size: 3rem;
+    font-size: 2rem;
     color: white;
     max-width: 700px;
     margin: 2rem;
@@ -229,7 +230,27 @@ img{
     margin: 0.5rem 2rem;
 }
 
+.doc-img{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+iframe{
+    display: flex;
+    width: 698px;
+    height: 354px;
+    border: 0;
+    transform: scale(1);
+    overflow: hidden;
+    margin: 2rem auto;
+    flex-wrap: wrap;
+}
+
 @media (max-width:700px){
+        body{
+            font-size: 13px;
+        }
         .siderbar{
             top: 10vh;
             position: absolute;
