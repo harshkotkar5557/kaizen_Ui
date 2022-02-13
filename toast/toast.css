@@ -1,0 +1,28 @@
+.toast-outer-box{
+    align-items: center;
+    box-shadow: 0 0 3px 2px var(--lightGrey);
+    width: fit-content;
+    padding: 0.5rem;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    z-index: 999;
+}
+
+.green-bg-toast{
+    background: var(--success);
+}
+.red-bg-toast{
+    background: var(--danger);
+}
+.toast-content{
+    letter-spacing: 0.03em;
+}
+.cross-sign{
+    padding-left: 0.5rem;
+    font-size: 1.5rem;
+    transform: scale(1.1);
+}
+.cross-sign:hover{
+    transform: scale(1);
+}
