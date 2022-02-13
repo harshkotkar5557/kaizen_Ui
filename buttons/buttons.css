@@ -156,11 +156,23 @@
     color: var(--white);
     border: 0.5px solid var(--link);
 }
-
-.float-btn {
-    color: var(--white);
-    border-radius: var(--border-full);
+.floating-container{
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.floating-btn{
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    font-size: 1.5rem;
     padding: 0.8rem 1rem;
-    background-color: var(--main-color);
-    box-shadow: rgba(128, 128, 128, 0.35) 0px 5px 15px;
+    border-radius: 50%;
+    background: var(--black);
+    color: var(--white);
+    z-index: 999;
+}
+.floating-btn:hover{
+    transform: scale(1.1);
 }
