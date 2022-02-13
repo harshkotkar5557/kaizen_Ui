@@ -1,0 +1,22 @@
+.scrollable-navigation{
+    height: 30vh;
+    overflow: auto;
+    width: 80%;
+    margin: 0 auto;
+}
+.grey-bg{
+    background-color: var(--grey);
+}
+
+.fixed-navigation{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    height: 30vh;
+}
+
+.fixed-nav-content-box{
+    height: 20vh;
+    overflow: auto;
+    margin-top: 1rem;
+}
