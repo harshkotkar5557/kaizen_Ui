@@ -5,7 +5,7 @@
     margin: 1rem auto;
     min-width: 280px;
     width: 380px;
-    box-shadow: 0 0 2px 2px var(--lightGrey);
+    box-shadow: 0 0 2px 1px var(--black);
     border-radius: 3px;
     overflow: hidden;
     padding-bottom: 0.3rem;
