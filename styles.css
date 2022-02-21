@@ -16,7 +16,7 @@
 @import url('./simple-grid/grid.css');
 @import url('./navigation/nav.css');
 @import url('./text-utilities/text.css');
-@import url('./silder/silder.css');
+
 :root{
     --main-color: #0e9aeb;
     --black: #1f1d1d;
@@ -190,7 +190,9 @@ nav{
 }
 
 .siderbar{
-    padding: 0.5rem;
+    height: 88vh;
+    overflow: auto;
+    padding: 0.5rem 0 2rem 0;
     flex: 1 0;
     flex-basis: 230px;
     box-shadow: 1px 2px 2px 1px #fdb8b83b;
