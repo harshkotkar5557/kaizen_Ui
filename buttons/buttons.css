@@ -67,6 +67,11 @@
     background-color: var(--link);
 }
 
+.icon-btn i{
+    font-size: 0.8rem;
+    padding-left: 5px;
+}
+
 .outlined-primary {
     background-color: var(--white);
     color: var(--primary);
