@@ -231,6 +231,8 @@ nav{
     color: white;
     max-width: 700px;
     margin: 2rem;
+    letter-spacing: 0.1em;
+    line-height: 3rem;
 }
 .main_title .link-btn{
     background-color: tomato;
