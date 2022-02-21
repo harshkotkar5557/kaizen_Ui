@@ -7,19 +7,20 @@ Fully customizable, easy to use CSS component library which makes a process of m
 
 
 ### Components 
- 1. Alert
- 2. Avatar
- 3. Badge
- 4. Button
- 5. Card 
- 6. Image
- 7. Input
- 8. List
- 9. Modal
- 10. Navigation
- 11. Rating
- 12. Text Utilities
- 13. Toast
+ * [Alert](https://kaizen-ui.netlify.app/components/alert/alert.html)
+  * [Avatar](https://kaizen-ui.netlify.app/avatar/avatar.html)
+  * [Badge](https://kaizen-ui.netlify.app/bagde/bagde.html)
+  * [Button](https://kaizen-ui.netlify.app/buttons/buttons.html)
+  * [Card](https://kaizen-ui.netlify.app/cards/cards.html)
+  * [Image](https://kaizen-ui.netlify.app/images/images.html)
+  * [Input](https://kaizen-ui.netlify.app/input/input.html)
+  * [Lists](https://kaizen-ui.netlify.app/lists/lists.html)
+  * [Modal](https://kaizen-ui.netlify.app/modals/modals.html)
+  * [Navigation](https://kaizen-ui.netlify.app/navigation/nav.html)
+  * [Rating](https://kaizen-ui.netlify.app/rating/rating.html)
+  * [Grid](https://kaizen-ui.netlify.app/simple-grid/grid.html)
+  * [Text Utilities](https://kaizen-ui.netlify.app/text-utilities/text.html)
+  * [Toast](https://kaizen-ui.netlify.app/toast/toast.html)
 
 ## Installation
 
