@@ -40,6 +40,10 @@ Just add following lines of code in <head/> tag of your html file.
 
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+## Demo
+
+![kaizen-ui](https://user-images.githubusercontent.com/75067419/154906488-bc707ce6-de05-4b50-83dc-e5701fcf365b.gif)
 
 ## Author
 
