@@ -16,7 +16,7 @@
 @import url('./simple-grid/grid.css');
 @import url('./navigation/nav.css');
 @import url('./text-utilities/text.css');
-
+@import url('./silder/silder.css');
 :root{
     --main-color: #0e9aeb;
     --black: #1f1d1d;
