@@ -57,3 +57,16 @@
     padding: 1rem 1.5rem;
     font-weight: var(--font-regular);
 }
+.text-area{
+    border: 2px solid var(--lightGrey);
+    border-radius: 5px;
+    padding: 1rem;
+    font-size: 1rem;
+    letter-spacing: 0.1em;
+    width: 300px;
+    height: 250px;
+    min-width: 200px;
+    min-height: 200px;
+    background-color: var(--lynxWhite);
+    resize: none;
+}
