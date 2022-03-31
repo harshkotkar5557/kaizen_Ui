@@ -56,6 +56,12 @@
     --font-bold:700
 }
 
+.d-none{
+    display: none !important;
+}
+.d-block{
+    display: block !important;
+}
 
 
 /* Reset CSS */
@@ -277,7 +283,7 @@ iframe{
         body{
             font-size: 13px;
         }
-        .siderbar{
+        #siderbar{
             display: none;
             top: 10vh;
             position: absolute;
