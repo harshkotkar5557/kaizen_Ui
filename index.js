@@ -1,10 +1,11 @@
-document.querySelector('.siderbar').style['display'] == "none"
+const sider = document.getElementById('siderbar')
 
 document.getElementById('hambar').addEventListener('click', () => {
-    if (document.querySelector('.siderbar').style['display'] == "none") {
-        document.querySelector('.siderbar').style['display']='block'
+    console.log(sider.className)
+    if (sider.className === 'siderbar') {
+        sider.className= 'siderbar d-block'
     } else {
-        document.querySelector('.siderbar').style['display']='none'
+        sider.className= 'siderbar'
     }
    
 })
